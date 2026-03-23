@@ -1,10 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My Website</title>
+    <title>My Game Zone 🔥</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+            color: white;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            font-size: 28px;
+            background: rgba(0,0,0,0.6);
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.1);
+            margin: 15px;
+            padding: 20px;
+            border-radius: 15px;
+            width: 250px;
+            text-align: center;
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+        }
+
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: #ff4b2b;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #ff416c;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>🔥 Website Working Hai 🔥</h1>
-    <p>Bhai site chal padi 😎</p>
+
+<header>🔥 My Game Zone 🔥</header>
+
+<div class="container">
+
+    <div class="card">
+        <h2>🚗 Car Game</h2>
+        <p>Racing fun game</p>
+        <a href="https://www.crazygames.com/game/madalin-stunt-cars-2" target="_blank">
+            <button>Play</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>🔫 Shooting Game</h2>
+        <p>Action shooting game</p>
+        <a href="https://www.crazygames.com/game/forward-assault" target="_blank">
+            <button>Play</button>
+        </a>
+    </div>
+
+    <div class="card">
+        <h2>🧩 Puzzle Game</h2>
+        <p>Brain challenge game</p>
+        <a href="https://www.crazygames.com/game/2048" target="_blank">
+            <button>Play</button>
+        </a>
+    </div>
+
+</div>
+
 </body>
 </html>
